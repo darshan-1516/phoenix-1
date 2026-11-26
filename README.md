@@ -14,7 +14,7 @@ Equivalence is empirical over the supplied test cases and is not a mathematical 
 
 ## Run locally
 
-1. Copy `backend/.env.example` to `backend/.env`. Add an OpenAI-compatible API key to enable model-based compression and tests. The default local database is `backend/promptguard.db`.
+1. Copy `backend/.env.example` to `backend/.env`. Add an OpenAI-compatible API key to enable model-based compression and tests. The default local database is SQLite at `backend/promptguard.db`; no MySQL server or Workbench setup is needed.
 2. In PowerShell, install backend dependencies and start the API:
 
    ```powershell
